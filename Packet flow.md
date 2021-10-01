@@ -53,7 +53,7 @@ Các gói tin được forward
 |13|||Ra đường truyền|
 Dưới đây là mô hình miêu tả quá trình gói tin traverse qua iptables
 
-![https://camo.githubusercontent.com/d2ae757425ff97ce91888e299b413de8df876a4e217e73cba48830be289b8ae3/687474703a2f2f692e696d6775722e636f6d2f326e51517a72682e6a7067](Aspose.Words.db0b3d21-a090-4408-b88d-cc286c9e2375.001.jpeg)
+<img src="http://i.imgur.com/2nQQzrh.jpg">
 
 Lưu ý mọi gói tin sẽ đều phải đi qua một hoặc nhiều path trong mô hình trên. Nếu bạn có DNAT cho nó quay về network ban đầu thì nó cũng phải đi hết các chain.
 
