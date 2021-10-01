@@ -82,7 +82,7 @@ Các trường của struct này có ý nghĩa như sau:
 
 Iptables chỉ là giao diện dòng lệnh để tương tác với tính năng packet filtering của netfilter framework.
 
-![https://raw.githubusercontent.com/ImKifu/thuctapsinh/master/HungNK/Basic\_Linux\_Command/Picture/firewalld1.png](Aspose.Words.2aa8ea4c-9d65-4856-80d6-ff53a6e09ee7.004.png)![https://news.cloud365.vn/wp-content/uploads/2019/08/hook-and-chain.png](Aspose.Words.2aa8ea4c-9d65-4856-80d6-ff53a6e09ee7.005.png)
+<img src="http://i.imgur.com/Aspose.Words.2aa8ea4c-9d65-4856-80d6-ff53a6e09ee7.005.png">
 
 Nhìn vào hình vẽ minh họa, ta có thể thấy Iptables ( command ) thao tác, kết nối trực tiếp với Netfilter thông qua 5 hook kể trên. 5 hook ý được kết nối tới 5 chain .
 
@@ -132,8 +132,7 @@ Chúng tôi đã nói về các tables và chains riêng biệt. Chúng ta h
 Bảng sau đây cho biết các chaín có sẵn trong mỗi bảng iptables khi được đọc từ trái sang phải. Chẳng hạn, nhìn vào bảng, chúng ta có thể thấy rằng bảng raw có cả chains PREROUTING và OUTPUT. Khi đọc từ trên xuống dưới, nó cũng hiển thị thứ tự mỗi chuỗi được gọi khi netfilter hook liên quan được kích hoạt.
 
 Một vài điều cần lưu ý. Trong bảng biểu diễn bên dưới, bảng NAT đã được phân chia giữa các hoạt động DNAT (những hoạt động thay đổi địa chỉ đích của gói) và các hoạt động SNAT (những hoạt động thay đổi địa chỉ nguồn) để hiển thị thứ tự rõ ràng hơn. Chúng tôi cũng đã bao gồm các rows that represent points nơi đưa ra quyết định định tuyến và nơi bật tính năng theo dõi kết nối để cung cấp cái nhìn toàn diện hơn về các quy trình đang diễn ra:
-
-![](Aspose.Words.2aa8ea4c-9d65-4856-80d6-ff53a6e09ee7.006.png)
+<img src="http://i.imgur.com/Pu5sOu7.png">
 
 
 
